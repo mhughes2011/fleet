@@ -3,16 +3,16 @@ import React from 'react'
 function Home() {
   return (
     <>
-      <div>
-        <h1>So you want to reduce your Fleet Emissions...</h1>
+      <div className='my-16'>
+        <h1 className='text-5xl font-bold '>So you want to reduce your Fleet Emissions...</h1>
       </div>
     
 
-      <div className=''>
+      <div>
         <div className="col1">
-          <h2>Every gallon of gasoline burned produces 19 lbs of CO<sub>2</sub></h2>
+          <h2 className='text-3xl font-semibold my-4'>Every gallon of gasoline burned produces 19 lbs of CO<sub>2</sub></h2>
         </div>
-        <div className="col2">
+        <div className="text-3xl font-semibold my-4">
           <h2>Every gallon of diesel burned produces  22.38 lbs of CO<sub>2</sub></h2>
         </div>
       </div>
